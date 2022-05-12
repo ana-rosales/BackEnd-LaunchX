@@ -19,6 +19,7 @@ public class TestS extends Thread{
     public static void main(String[] args) {
         TestS h1 = new TestS();
         h1.start();
+        //primero runnable luego hilo
         HiloS h2 = new HiloS();
         Thread hr2 = new Thread(h2);
         hr2.start();

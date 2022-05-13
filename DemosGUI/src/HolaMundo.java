@@ -9,7 +9,7 @@ public class HolaMundo {
 
         str = d.readString("¿Quieres aprender a hacer esto? s/n");
         if(str.charAt(0) == 'S' || str.charAt(0) == 'N'){
-            screen.showImage("ashe.jpeg");
+            screen.showImage("ashe.jpg");
             screen.out("Hola Explorers");
         } else
             screen.out("Tal vez en otro momento, adiós :(","Century Schoolbook", 28, Colors.AgalFuel);
